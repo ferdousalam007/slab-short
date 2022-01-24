@@ -353,5 +353,73 @@ max-width: 475px;
     
 }
 /* /-------------------
-    header area style
+    footer area style
 /------------------- */
+.footer_top{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    justify-content: space-between;
+
+}
+.footer_top h6 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.footer_part_one .footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer_logo h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer_part_one .top_text{
+    font-weight: 500;
+}
+.footer_part_two li{
+    margin-bottom: 25px;
+}
+.footer_part_three li{
+    margin-bottom: 25px;
+}
+.footer_part_four ul{
+    display: flex;
+    align-items: center;
+}
+.footer_part_four ul li{
+   margin-right: 15px;
+}
+.footer_part_four ul li i{
+        color: #fff;
+        background: #E9E9EE;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 50%;
+}
+.footer_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_bottom small{
+    font-size: 12px;
+    color: rgba(33, 35, 83, 1);
+}
+.footer_message {
+	color: #9C69E2;
+	background: #EBE1F9;
+	width: 60px;
+	height: 60px;
+    font-size: 20px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 50%;
+}
+.w-50 {
+	width: 50%;
+}
